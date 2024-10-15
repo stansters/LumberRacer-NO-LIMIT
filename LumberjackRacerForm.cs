@@ -62,6 +62,7 @@ namespace LumberRacer
 
                 var textbox = new NumericUpDown
                 {
+                    Maximum = displayAttribute?.Max ?? 99999,
                     Value = displayAttribute?.DefaultValue ?? 0
                 };
 
